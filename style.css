@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: rgb(44, 40, 90);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px; /* Adjusted padding for responsiveness */
+}
+
+body {
+    background-color: rgb(227, 237, 239);
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 1.8rem; /* Changed from cm to rem */
+    font-weight: 700;
+    color: rgb(239, 242, 248);
+    text-transform: uppercase;
+}
+
+.navigation a {
+    text-decoration: none;
+    font-size: 1.1rem; /* Changed from cm to rem */
+    font-weight: 500;
+    color: darkcyan;
+    padding: 15px 20px; /* Adjusted padding for responsiveness */
+}
+
+.navigation a:hover {
+    color: lightslategrey;
+}
+
+section {
+    padding: 100px 50px; /* Adjusted padding for responsiveness */
+}
+
+.main {
+    width: 100%;
+    min-height: 90vh; /* Adjusted min-height for responsiveness */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centered content */
+    background: url('imag/BG.webp') no-repeat;
+    background-size: cover;
+    text-align: center; /* Centered text */
+    color: rgb(226, 90, 11); /* Changed text color to white for better contrast */
+}
+
+.main div {
+    max-width: 600px; /* Adjusted max-width for better text readability */
+}
+
+.main h2 {
+    font-size: 2.5rem; /* Changed from cm to rem */
+    margin-bottom: 10px; /* Added margin bottom for spacing */
+}
+
+.main h3 {
+    font-size: 1.5rem; /* Changed from cm to rem */
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+}
+
+.main div img {
+    float: right;
+    margin-left: 20px; /* تضبيط المسافة بين النص والصورة */
+    max-width: 200px; /* حجم الصورة */
+}
+
+
+.main-btn {
+    display: inline-block;
+    padding: 10px 20px; /* Adjusted padding for responsiveness */
+    background-color: cornflowerblue;
+    color: rgb(14, 1, 1);
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.main-btn:hover {
+    background-color: lightskyblue;
+}
+
+.social-icons {
+    margin-top: 20px; /* Added margin top for spacing */
+}
+
+.social-icons a {
+    margin-right: 10px; /* Added margin right for spacing between icons */
+    color: cornflowerblue;
+    font-size: 1.5rem; /* Changed from cm to rem */
+    text-decoration: none;
+}
+
+footer {
+    background-color: rgb(142, 172, 206);
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
